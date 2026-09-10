@@ -1,0 +1,3 @@
+The inner product had the lowest precision@3 at 9.3% Cosone similarity improved to 19.1%, and TF-IDF cosine similarity performed the best at 21.1%. These results show that adjusting for song length and giving more importance to meaningful words can improve the recommendations.
+
+For my custom  system, I added more weight to the rare words. It had a precision@3 of 20.0%, so it did not beat TF_IDF cosine similarity. This shows that increasing the importance of rare words does not really improve the results. TF_IDF cosine similarity worked the best. The results could be improved by using more song information.
